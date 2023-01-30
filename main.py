@@ -7,7 +7,7 @@ from pandas.core.frame import DataFrame
 
 
 
-df=pd.read_csv(r"C:\Users\Rambo\PycharmProjects\CSE780\Stocks of frozen poultry meat.csv")
+df=pd.read_csv("./Stocks of frozen poultry meat.csv")
 labels = ['Chicken', 'Turkey', 'Ducks', 'Geese ', 'Other fowl']
 chicken_list=['Grade A chickens, under 2 kilograms, total','Other chicken, under 2 kilograms, total','Grade A chickens, 2 kilograms and over, total','Other chicken, 2 kilograms and over, total','Chicken further processed, total']
 other_fowl_list=['Reported Grade A fowl, total','Other fowl, total']
